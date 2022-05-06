@@ -1,6 +1,0 @@
-REM INSERTING into BILLERS
-SET DEFINE OFF;
-Insert into BILLERS (BILLER_ID,BILLER_NAME,REQUEST_TYPE,URL,TIMEOUT_ID,KEY) values (960371,'Mobadra','BillsInquiry','http://172.16.88.7:9091/global/mobadra/inq',null,null);
-Insert into BILLERS (BILLER_ID,BILLER_NAME,REQUEST_TYPE,URL,TIMEOUT_ID,KEY) values (960372,'Mobadra','InitPayment','http://172.16.88.7:9091/global/mobadra/pay',3,'NFRO07DE7AF4E9I9O0D9B60CA52BJJ12');
-
-commit;
