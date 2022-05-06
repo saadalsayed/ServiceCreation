@@ -1,0 +1,2 @@
+
+Insert into T_MISC_SRV_BCK (SERVICE_ID,SERVICE_TYPE,DESCX,SEQ_NO) values ('930202',null,'جو باص:GO-BUS Payment',null);
