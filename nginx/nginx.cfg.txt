@@ -1,0 +1,23 @@
+############## Paytabs#########################
+	
+	location  /global/Paytabs/inq {
+		#proxy_read_timeout 120s;
+		proxy_ssl_server_name on;
+  		proxy_ssl_name secure-egypt.paytabs.com;
+		proxy_set_header Host secure-egypt.paytabs.com;
+		
+	     #proxy_pass  http://localhost:6066/globalmock/PaytabsInquiry;
+	     proxy_pass  https://secure-egypt.paytabs.com/payment/aman/purchase/inquiry;
+
+	}
+
+	location  /global/Paytabs/pay {
+		#proxy_read_timeout 120s;
+		 proxy_ssl_server_name on;
+		 proxy_ssl_name secure-egypt.paytabs.com;
+		 proxy_set_header Host secure-egypt.paytabs.com;
+
+	       #proxy_pass  http://localhost:6066/globalmock/PaytabsPayment;
+	        proxy_pass  https://secure-egypt.paytabs.com/payment/aman/purchase/payment;
+	}
+	######################################################
