@@ -1,0 +1,10 @@
+
+
+############# water prepaid #################################
+
+billsinquiry_960379_ServiceUrl=direct-vm:amanEFinanceInquiryHandler
+initpayment_960380_ServiceUrl=direct-vm:amanEFinancePaymentHandler
+billsinquiry_960375_ServiceUrl=direct-vm:inquiryConfirmEcho
+Pay.Trx.Status.960380=enabled
+onlineReverse.960375=true
+960380=EFinanceID
