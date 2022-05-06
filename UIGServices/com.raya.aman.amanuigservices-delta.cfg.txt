@@ -1,0 +1,3 @@
+LongParams.960379=CARD_DATA
+LongParams.960380=CARD_DATA
+onlineReverse.960380=true
